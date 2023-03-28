@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+</head>
+
+<body>
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="index2.html">Shop</a>
+    <a class="active" href="index3.html">FAQ</a>
+    <a href="index4.html">About us</a>
+</div>
+<header class="w3-container w3-center w3-padding-48 w3-white">
+  <h1 id = "cosmetime-homepage-" >Cosmetime</h1>
+  <h6><em>Save your precious</em><br><span class="w3-tag"><em>Time.</em></span></h6>
+</header>
+<br>
+<!-- <span id="home"><h1 id="cosmetime-homepage-"><em>Cosmetime FAQ</em></h1></span> -->
+<h1 id = "cosmetime-homepage-" class="w3-center w3-padding-64"><span class="w3-tag w3-wide"><em>Frequently Asked Questions</em></span></h1>
+<br>
+<img src="./pics/pic1.jpg" alt="interview_woman" style="width:40%">
+<br>
+<h2>Why should I complete the test?</h2>
+<div class="pretty">Our online test not only helps you understand your skin type, but also gives you product recommendations from professionals. We also offer products suited for many specific skin types (with discounts!)</div>
+
+<h2>Do I have to sign up to complete the test?</h2>
+<div class = "pretty">No, to find out your skin type you do not need to enter your email anywhere. Once you have completed your test, you can choose to sign up and then receive further recommendations tailored for you.</div>
+<br>
+<img src="./pics/pic2.jpg" alt="interview_woman" style="width:40%">
+<br>
+<h2>How do you know what products are best for me?</h2>
+<div class="pretty">We use the questionnaire to understand basic information about your skin type. We consult with professional dermatologists to determine the best quality products for every specific customer, and we make sure to include products of all price ranges.</div>
+
+<h2>Where do you ship?</h2>
+<div class="pretty">We are a Latvia-based small business, so our products are available in all of Europe (with free shipping!) and North America. We are trying to expand soon, so keep an eye out if Your home country is not on the list yet!
+</div>
+<br>
+
+<p><strong>Still have unanswered questions? Contact our customer support at <em>cosmetime@support.com </em> </strong></p>
+<br>
+<br>
+<br>
+<h1 class="w3-center w3-padding-64"><span class="w3-tag w3-wide"><em>Sign up for our newsletter!</em></span></h1>
+    <p><strong>Just</strong> fill out this form:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class = "pretty" class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class = "pretty"class="w3-input w3-padding-16 w3-border" type="text" placeholder="Second name" required name="People"></p>
+      <p><input class = "pretty"class="w3-input w3-padding-16 w3-border" type="text" placeholder="e-mail" required name="Message"></p>
+      <a type = "submit" class="btn" role="button"><em>Submit!</em></a> 
+    </form>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<!-- End page content -->
+</div>
+
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+
+<style>
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #474960;
+    color: white;
+    text-align: center;
+  }
+  </style>
+  
+  <div class="footer">
+    <span style="float: left;"> Instagram - cosmetime_uk  Facebook - Cosmetime </span>
+    <span style="float: right;">Riga, Latvija. All rights reserved.</span>
+  </div> 
+
+</body>
+    
+
+
+
+</html>
